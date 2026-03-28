@@ -1,0 +1,10 @@
+{
+  "name": "ml-automation-aws",
+  "version": "0.1.0",
+  "description": "AWS ML platform extension for ml-automation. SageMaker training, S3 data management, Lambda deployment, ECR containers, and AWS ML infrastructure automation.",
+  "author": { "name": "Maximo Lorenzo y Losada" },
+  "repository": "https://github.com/Maxilylm/ml-automation-aws",
+  "license": "MIT",
+  "keywords": ["aws", "sagemaker", "s3", "lambda", "ecr", "aws-ml", "cloud-deploy", "ml-automation-extension"],
+  "dependencies": ["ml-automation-core"]
+}
