@@ -4,7 +4,7 @@ description: "Review AWS ML configurations for cost optimization, security best 
 model: sonnet
 color: "#B05E00"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [aws review, aws cost, aws security, iam, aws best practices, sagemaker cost]
 hooks_into:
   - after-evaluation

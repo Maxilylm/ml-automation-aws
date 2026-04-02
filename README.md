@@ -1,4 +1,4 @@
-# ml-automation-aws
+# spark-aws
 
 AWS ML platform extension for [ml-automation](https://github.com/Maxilylm/ml-automation-core).
 
@@ -12,7 +12,7 @@ AWS ML platform extension for [ml-automation](https://github.com/Maxilylm/ml-aut
 ## Installation
 
 ```bash
-claude plugin add /path/to/ml-automation-aws
+claude plugin add /path/to/spark-aws
 ```
 
 ## What's Included

@@ -4,7 +4,7 @@ description: "SageMaker training jobs, processing jobs, hyperparameter tuning, a
 model: sonnet
 color: "#FF9900"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [sagemaker, aws ml, sagemaker training, sagemaker endpoint, sagemaker pipeline, aws model]
 hooks_into:
   - before-deploy

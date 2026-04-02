@@ -2,7 +2,7 @@
 name: aws-status
 description: "Check AWS ML resource status: SageMaker endpoints, training jobs, S3 buckets, and cost breakdown."
 aliases: [aws resources, aws check, sagemaker status, aws costs, aws dashboard]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

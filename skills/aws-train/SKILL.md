@@ -2,7 +2,7 @@
 name: aws-train
 description: "Train models on SageMaker with built-in algorithms, custom containers, spot instances, and hyperparameter tuning."
 aliases: [sagemaker train, aws training, sagemaker tuning, aws model training]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

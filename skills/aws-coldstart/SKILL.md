@@ -2,7 +2,7 @@
 name: aws-coldstart
 description: "Full AWS ML workflow: S3 data upload, SageMaker training, model evaluation, registry, and deployment in one command."
 aliases: [aws ml workflow, aws end to end, sagemaker workflow, aws full pipeline]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

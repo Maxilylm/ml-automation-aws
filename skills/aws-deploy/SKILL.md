@@ -2,7 +2,7 @@
 name: aws-deploy
 description: "Deploy ML models to SageMaker endpoints, Lambda functions, or ECS containers with autoscaling and monitoring."
 aliases: [sagemaker deploy, aws endpoint, lambda deploy, aws inference, serverless deploy]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

@@ -1,7 +1,7 @@
 """
-AWS utilities for the ml-automation-aws extension plugin.
+AWS utilities for the spark-aws extension plugin.
 
-Requires ml_utils.py from the ml-automation core plugin to be present
+Requires ml_utils.py from the spark core plugin to be present
 in the same directory (copied via Stage 0 of AWS commands).
 """
 

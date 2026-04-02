@@ -2,7 +2,7 @@
 name: aws-pipeline
 description: "Build SageMaker Pipelines with processing, training, evaluation, conditional approval, and deployment steps."
 aliases: [sagemaker pipeline, aws ml pipeline, aws workflow, mlops pipeline]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

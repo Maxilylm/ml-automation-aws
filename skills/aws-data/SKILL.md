@@ -2,7 +2,7 @@
 name: aws-data
 description: "Manage S3 data: upload, download, catalog with Glue, query with Athena, and profile datasets."
 aliases: [s3 upload, s3 download, glue catalog, athena query, aws data management]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

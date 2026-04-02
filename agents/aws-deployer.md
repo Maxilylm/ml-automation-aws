@@ -4,7 +4,7 @@ description: "Deploy ML models to SageMaker endpoints, Lambda functions, and ECS
 model: sonnet
 color: "#CC7000"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [aws deploy, sagemaker endpoint, lambda deploy, ecs, ecr, aws inference, serverless ml]
 ---
 

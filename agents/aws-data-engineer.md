@@ -4,7 +4,7 @@ description: "S3 data management, Glue ETL pipelines, Athena queries, and data l
 model: sonnet
 color: "#E8850A"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [s3, aws data, glue, athena, aws pipeline, data lake, s3 bucket, aws etl]
 hooks_into:
   - after-init

@@ -2,7 +2,7 @@
 name: aws-connect
 description: "Configure AWS credentials, profiles, regions, and SSO for ML workflows. Verify connectivity and permissions."
 aliases: [aws credentials, aws setup, aws login, aws configure]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 
