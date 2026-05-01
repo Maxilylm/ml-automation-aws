@@ -1,0 +1,28 @@
+{
+  "name": "spark-aws",
+  "version": "0.2.0",
+  "description": "AWS ML platform extension for spark. SageMaker training, S3 data management, Lambda deployment, ECR containers, and AWS ML infrastructure automation.",
+  "author": {
+    "name": "Maximo Lorenzo y Losada"
+  },
+  "repository": "https://github.com/Maxilylm/ml-automation-aws",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "sagemaker",
+    "s3",
+    "lambda",
+    "ecr",
+    "aws-ml",
+    "cloud-deploy",
+    "spark-extension",
+    "cortex-code"
+  ],
+  "dependencies": ["spark-core"],
+  "cortex": {
+    "agents_dir": "agents",
+    "skills_dir": "skills",
+    "commands_dir": "commands",
+    "hooks_dir": "hooks"
+  }
+}
