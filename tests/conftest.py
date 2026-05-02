@@ -9,7 +9,7 @@ def mock_llm_response():
     """Deterministic LLM response for evaluation/integration tests."""
     return {
         "id": "test-completion-001",
-        "model": "test-model",
+        "model": "claude-opus-4-7",
         "choices": [{
             "index": 0,
             "message": {"role": "assistant", "content": "test response content"},
