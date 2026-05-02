@@ -19,12 +19,12 @@ claude plugin add /path/to/spark-aws
 
 ### Agents
 
-| Agent | Purpose | Hooks Into |
-|---|---|---|
-| `aws-ml-engineer` | SageMaker training, hyperparameter tuning, model registry | `before-deploy` |
-| `aws-data-engineer` | S3 data management, Glue ETL, Athena queries | `after-init` |
-| `aws-deployer` | Deploy to SageMaker endpoints, Lambda, ECS/ECR | *(direct invocation)* |
-| `aws-reviewer` | AWS cost, security, and best practices review | `after-evaluation` |
+| Agent | Purpose |
+|---|---|
+| `aws-ml-engineer` | SageMaker training, hyperparameter tuning, model registry |
+| `aws-data-engineer` | S3 data management, Glue ETL, Athena queries |
+| `aws-deployer` | Deploy to SageMaker endpoints, Lambda, ECS/ECR |
+| `aws-reviewer` | AWS cost, security, and best practices review |
 
 ### Commands
 
