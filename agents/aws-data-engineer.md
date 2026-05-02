@@ -6,8 +6,6 @@ color: "#E8850A"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [s3, aws data, glue, athena, aws pipeline, data lake, s3 bucket, aws etl]
-hooks_into:
-  - after-init
 ---
 
 # AWS Data Engineer

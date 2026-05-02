@@ -6,8 +6,6 @@ color: "#FF9900"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [sagemaker, aws ml, sagemaker training, sagemaker endpoint, sagemaker pipeline, aws model]
-hooks_into:
-  - before-deploy
 ---
 
 # AWS ML Engineer

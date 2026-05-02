@@ -6,8 +6,6 @@ color: "#B05E00"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [aws review, aws cost, aws security, iam, aws best practices, sagemaker cost]
-hooks_into:
-  - after-evaluation
 ---
 
 # AWS Reviewer
